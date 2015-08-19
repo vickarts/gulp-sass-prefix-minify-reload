@@ -1,0 +1,79 @@
+header.hero {
+  width: 100%;
+  height: 100vh;
+  background: #444;
+  position: relative;
+  text-align: center;
+  line-height: 15px;
+  background: url(../../images/hero-bg.jpg);
+  background-size: cover;
+  background-position: center center; }
+
+.center-div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+header h1 {
+  color: #FFF;
+  margin-bottom: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400; }
+
+header p {
+  color: #FFF;
+  font-size: 1.75rem;
+  font-weight: 100;
+  margin-bottom: 0px;
+  font-family: 'Roboto', sans-serif; }
+
+section.intro {
+  padding: 25px 10px;
+  max-width: 600px;
+  margin: 0px auto;
+  text-align: center; }
+
+section.intro h5 {
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px dotted #000; }
+
+section.sidekick {
+  width: 100%;
+  padding: 35px 0px;
+  background: #5e5e5e;
+  position: relative;
+  text-align: center;
+  line-height: 15px; }
+
+section.sidekick h3 {
+  color: #FFF;
+  margin-bottom: 0px; }
+
+section.sidekick p {
+  color: #FFF;
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-bottom: 0px; }
+
+section.container {
+  margin-bottom: 35px; }
+
+section .columns {
+  height: 200px;
+  background: #CCC;
+  text-align: center; }
+
+footer a {
+  color: #999;
+  font-size: 2rem;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 50px 0px;
+  background: #444; }
+
+footer a:hover {
+  color: #FFF; }

@@ -1,0 +1,1 @@
+var read="I can read!",reader=read;
