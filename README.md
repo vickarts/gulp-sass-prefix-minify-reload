@@ -12,6 +12,6 @@
 <h3>Installation</h3>
 <li>Download ZIP</li>
 <li>Unzip the archive</li>
-<li>CD to reesulting uncompressed folder in CLI</li>
+<li>CD to resulting uncompressed folder in CLI</li>
 <li>run "npm install"</li>
 <li>run "gulp"</li>
