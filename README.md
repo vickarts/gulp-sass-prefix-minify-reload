@@ -1,6 +1,6 @@
 <h1>Use Gulp to handle mundane tasks</h1>
 <li><b>browser-sync:</b> browser displays latest html, css and js changes on save</li>
-<li><b>gulp-autoprefixer:</b> keep dev scss clean while maintaining browser standards</li>
+<li><b>gulp-autoprefixer:</b> keep sass files clean while supporting css vendor prefixes</li>
 <li><b>gulp-sass:</b> use syntactically awesome style sheets</li>
 <li><b>gulp-minify-css:</b> compress your css files</li>
 <li><b>gulp-uglify:</b> compress your js files</li>
