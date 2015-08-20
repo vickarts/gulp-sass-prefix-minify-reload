@@ -1,3 +1,64 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100; }
+
+h1 {
+  font-size: 48px;
+  font-weight: 100; }
+
+nav {
+  z-index: 1;
+  position: fixed;
+  background: rgba(255, 255, 255, 0.5);
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid #000; }
+
+nav .nav-left {
+  display: flex;
+  width: 50%;
+  justify-content: space-between; }
+
+nav .nav-right {
+  display: flex;
+  width: 50%; }
+
+input.search {
+  flex-grow: 1;
+  font-size: 18px;
+  color: #555;
+  padding: 0px 10px;
+  outline: none; }
+
+input.submit {
+  padding: 0px 20px 0px 20px;
+  background: #000;
+  border: none;
+  border-left: solid 1px #000;
+  font-size: 18px;
+  cursor: pointer;
+  color: #FFF;
+  outline: none; }
+
+nav li {
+  list-style-type: none;
+  width: 33%;
+  text-align: center; }
+
+nav li a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  line-height: 40px; }
+
+nav li a:hover {
+  background: #777;
+  color: #FFF; }
+
 header.hero {
   width: 100%;
   height: 100vh;
@@ -7,34 +68,32 @@ header.hero {
   line-height: 15px;
   background: url(../../images/hero-bg.jpg);
   background-size: cover;
-  background-position: center center; }
-
-.center-div {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); }
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center; }
 
 header h1 {
+  width: 300px;
   color: #FFF;
-  margin-bottom: 0px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400; }
+  margin-bottom: 15px;
+  width: 100%; }
 
 header p {
   color: #FFF;
-  font-size: 1.75rem;
-  font-weight: 100;
-  margin-bottom: 0px;
-  font-family: 'Roboto', sans-serif; }
+  font-size: 1rem;
+  margin-bottom: 0px; }
 
 section.intro {
   padding: 25px 10px;
-  max-width: 500px;
+  max-width: 550px;
   margin: 0px auto;
-  text-align: center; }
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.5; }
 
-section.intro h5 {
+section.intro h2 {
   padding-bottom: 15px;
   margin-bottom: 15px;
   border-bottom: 1px dotted #000; }
