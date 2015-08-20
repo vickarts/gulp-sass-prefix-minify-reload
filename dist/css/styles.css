@@ -32,7 +32,7 @@ header p {
 
 section.intro {
   padding: 25px 10px;
-  max-width: 600px;
+  max-width: 500px;
   margin: 0px auto;
   text-align: center; }
 
@@ -40,42 +40,3 @@ section.intro h5 {
   padding-bottom: 15px;
   margin-bottom: 15px;
   border-bottom: 1px dotted #000; }
-
-section.sidekick {
-  width: 100%;
-  padding: 35px 0px;
-  background: #5e5e5e;
-  position: relative;
-  text-align: center;
-  line-height: 15px; }
-
-section.sidekick h3 {
-  color: #FFF;
-  margin-bottom: 0px; }
-
-section.sidekick p {
-  color: #FFF;
-  font-size: 1.5rem;
-  font-weight: normal;
-  margin-bottom: 0px; }
-
-section.container {
-  margin-bottom: 35px; }
-
-section .columns {
-  height: 200px;
-  background: #CCC;
-  text-align: center; }
-
-footer a {
-  color: #999;
-  font-size: 2rem;
-  text-decoration: none;
-  display: block;
-  width: 100%;
-  text-align: center;
-  padding: 50px 0px;
-  background: #444; }
-
-footer a:hover {
-  color: #FFF; }

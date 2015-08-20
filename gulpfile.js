@@ -35,13 +35,13 @@ gulp.task('serve', function() {
     browserSync.init({
         server: "dist"
     });
-    
+
     gulp.watch("dist/js/*.js").on('change', browserSync.reload);
-    gulp.watch("dist/css/*.css").on('change', browserSync.reload);
+    gulp.watch("dist/css/min/*.css").on('change', browserSync.reload);
     gulp.watch("dist/*.html").on('change', browserSync.reload);
 });
 
-gulp.task('default', ['serve'], function() {
+gulp.task('default',['serve'], function() {
     gulp.watch('dev/sass/*.scss', ['sass']);
     gulp.watch('dev/css/*.css', ['styles']);
     gulp.watch('dist/css/*.css', ['minify-css']);
