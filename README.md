@@ -7,8 +7,6 @@
 
 <hr>
 
-<h2>Skeleton-2: responsive css minified and built in</h2>
-
 <h3>Installation</h3>
 <li>Download ZIP</li>
 <li>Unzip the archive</li>
